@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <table width="350rem" height="550rem" cellspacing="0px">
+        <tr id="affichage">
+          <td colspan="4"><input type="text" id="result" readonly></td>
+        </tr>
+        <tr id="memory">
+            <td>
+                <button type="button" class="memoire" onclick="Clickbutton('mc')">mc</button>
+                <button type="button" class="memoire" onclick="Clickbutton('mr')">mr</button>
+                <button type="button" class="memoire" onclick="Clickbutton('m-')">m-</button>
+                <button type="button" class="memoire" onclick="Clickbutton('m+')">m+</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="elements" onclick="clearInput()">AC</button>
+                <button type="button" class="elements" onclick="Clickbutton('/x')">/x</button>
+                <button type="button" class="elements" onclick="percentageIndex()">%</button>
+                <button type="button" class="elementss" onclick="Clickbutton('/')">/</button>
+                <br><br>
+                <button type="button" class="elementsn" onclick="Clickbutton('7')">7</button>
+                <button type="button" class="elementsn" onclick="Clickbutton('8')">8</button>
+                <button type="button" class="elementsn" onclick="Clickbutton('9')">9</button>
+                <button type="button" class="elementss" onclick="Clickbutton('*')">*</button>
+                <br><br>
+                <button type="button" class="elementsn" onclick="Clickbutton('4')">4</button>
+                <button type="button" class="elementsn" onclick="Clickbutton('5')">5</button>
+                <button type="button" class="elementsn" onclick="Clickbutton('6')">6</button>
+                <button type="button" class="elementss" onclick="Clickbutton('-')">-</button>
+                <br><br>
+                <button type="button" class="elementsn" onclick="Clickbutton('1')">1</button>
+                <button type="button" class="elementsn" onclick="Clickbutton('2')">2</button>
+                <button type="button" class="elementsn" onclick="Clickbutton('3')">3</button>
+                <button type="button" class="elementss" onclick="Clickbutton('+')">+</button>
+                <br><br>
+                <button type="button" class="elementsn" onclick="Clickbutton('0')">0</button>
+                <button type="button" class="elementsn" onclick="Clickbutton('.')">.</button>
+                <button type="button" class="elementsn" onclick="Clickbutton('+/-')">+/-</button>
+                <button type="button" class="elementss" onclick="calculate()">=</button>
+                <br><br>
+                <button type="button" class="elements" onclick="Clickbutton('3.14')">pi</button>
+                <button type="button" class="elements" onclick="Clickbutton('Xy')">Xy</button>
+                <button type="button" class="elements" onclick="Clickbutton('R2')">R2</button>
+                <button type="button" class="elements" onclick="Clickbutton('R0')">R0</button>
+            </td>
+        </tr>
+    </table>
+    <script src="calculator.js"></script>
+</body>
+</html>
