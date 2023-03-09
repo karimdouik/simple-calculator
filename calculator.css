@@ -1,0 +1,72 @@
+table{
+     border: 1px solid;
+     border-radius: 30px;
+}
+
+input[type=text]{
+    height: 2rem;
+    width: 17rem;
+    margin-left: 1.5rem;
+}
+#affichage {
+     height: 5rem;
+}
+.memoire{
+     height: 3rem;
+     width:4.5rem;
+     border-radius: 25%;
+     border: 1px solid rgba(123, 121, 124, 0.055);
+     font-size: large;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-left: 0.5rem;
+     justify-content: center;
+     background-color: rgba(0, 74, 87, 0.582);
+}
+.memoire:active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 0, 0);
+}
+#memory{
+     height: 6rem;
+}
+.elements{
+    height: 2.5rem;
+    width:4rem ;
+    border-radius: 20%;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0.9rem;
+    
+}
+.elements:active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(47, 0, 255);
+}
+.elementss{
+    height: 2.5rem;
+    width:4rem ;
+    border-radius: 20%;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0.9rem;
+    background-color: rgb(252, 171, 189);
+    
+}
+.elementss:active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 0, 0);
+}
+.elementsn{
+    height: 2.5rem;
+    width:4rem ;
+    border-radius: 20%;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0.9rem;
+    background-color: rgba(255, 136, 0, 0.438);
+    
+}
+.elementsn:active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(20, 243, 0);
+}
